@@ -1,0 +1,11 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+  <app-text-field1 (result1) = "setInput1($event)"></app-text-field1>
+  <app-text-field2 (result2) = "setInput2($event)"></app-text-field2>
+  <app-text-field3 [input1] = "input1" [input2] = "input2"></app-text-field3>
+  <app-button-add></app-button-add>
+  <app-button-sub></app-button-sub> 
+</div>
